@@ -111,7 +111,10 @@ header{
 	margin: 10px;
 }
 .busca input[type=search]{
-	width: 170px
+	width: 170px;
+	border: 2px solid gray;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 }
 .busca button{
 	background-image: url(../img/busca.png);
@@ -120,6 +123,8 @@ header{
 	width: 20px;
 	height: 20px;
 	text-indent: -9999px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 }
 .painel{
 	margin: 10px 0;
